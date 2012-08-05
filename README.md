@@ -1,8 +1,0 @@
-Hex Tools
-=========
-
-Overview
---------
-
-Usage
------

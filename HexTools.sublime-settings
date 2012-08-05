@@ -1,7 +1,0 @@
-/*
-    Hex Tools default settings
-*/
-{
-    /* Set a custom characters for displayed */
-    "custom_chars": true
-}
