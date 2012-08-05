@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Hex</string>
+        <key>scopeName</key>
+        <string>source.hex</string>
+        <key>uuid</key>
+        <string>ED99D69F-53D9-4D3B-A037-5CFFA367FF9F</string>
+        <!--key>fileTypes</key>
+        <array>
+            <string>exe</string>
+            <string>dll</string>
+        </array-->
+        <key>patterns</key>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>keyword.border.hex</string>
+                <key>match</key>
+                <string>(\|)</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>constant.numeric.hex</string>
+                <key>match</key>
+                <string>(^\h{8})</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>string.hex</string>
+                <key>match</key>
+                <!-- <string>[a-zA-Z0-9\.]{1,16}$</string> -->
+                <string>[^\|]{1,16}$</string>
+            </dict>
+            <!-- <dict>
+                <key>name</key>
+                <string>support.function.hex</string>
+                <key>match</key>
+                <string>(\|)([0-9A-F ]++)(?=[^\|]*\|)</string>
+            </dict> -->
+        </array>
+    </dict>
+</plist>

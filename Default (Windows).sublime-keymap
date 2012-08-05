@@ -1,0 +1,14 @@
+[
+    {
+        "keys": ["ctrl+k", "ctrl+t"],
+        "command": "view_as_text"
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+h"],
+        "command": "view_as_hex"
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+d"],
+        "command": "view_as_disasm"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "keys": ["super+k", "super+t"],
+        "command": "view_as_text"
+    },
+    {
+        "keys": ["super+k", "super+h"],
+        "command": "view_as_hex"
+    },
+    {
+        "keys": ["super+k", "super+d"],
+        "command": "view_as_disasm"
+    }
+]
