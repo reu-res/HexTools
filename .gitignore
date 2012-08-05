@@ -1,0 +1,5 @@
+TODO
+*.sublime-project
+*.sublime-workspace
+*.cache
+*.pyc
