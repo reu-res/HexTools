@@ -1,14 +1,11 @@
 [
-    {
-        "keys": ["ctrl+k", "ctrl+t"],
-        "command": "view_as_text"
-    },
-    {
-        "keys": ["ctrl+k", "ctrl+h"],
-        "command": "view_as_hex"
-    },
-    {
-        "keys": ["ctrl+k", "ctrl+d"],
-        "command": "view_as_disasm"
-    }
+    { "keys": ["ctrl+k", "ctrl+t"], "command": "view_as_text" },
+    { "keys": ["ctrl+k", "ctrl+h"], "command": "view_as_hex" },
+    { "keys": ["ctrl+k", "ctrl+d"], "command": "view_as_disasm" },
+    { "keys": ["up"], "command": "move_cursor", "args": {"key": "up"} },
+    { "keys": ["down"], "command": "move_cursor", "args": {"key": "down"} },
+    { "keys": ["left"], "command": "move_cursor", "args": {"key": "left"} },
+    { "keys": ["right"], "command": "move_cursor", "args": {"key": "right"} },
+    { "keys": ["ctrl+alt+z", "h"], "command": "move_cursor", "args": {"key": "hex_area"} },
+    { "keys": ["ctrl+alt+z", "t"], "command": "move_cursor", "args": {"key": "text_area"} }
 ]
